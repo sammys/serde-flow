@@ -17,10 +17,10 @@ name = "serde_flow_derive"
 proc-macro = true
 
 [dependencies]
-serde = { version = "1.0.197", features = ["derive"]}
-proc-macro2 = "1.0.78"
-syn = "2.0.52"
-quote = "1.0.35"
+serde = { version = "^1.0.197", features = ["derive"]}
+proc-macro2 = "^1.0.78"
+syn = "^2.0.52"
+quote = "^1.0.35"
 
 [features]
 default = []
